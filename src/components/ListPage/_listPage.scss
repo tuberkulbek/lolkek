@@ -1,0 +1,41 @@
+.listPage {
+    left: 31vw;
+    position: absolute;
+    top: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 400px;
+}
+
+.oneItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='40' ry='40' stroke='black' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 40px;
+    img{
+        margin-top: 5px;
+        width: 100px;
+    }
+}
+
+.info-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    img{
+        width: 20px;
+    }
+}

@@ -1,0 +1,62 @@
+@import "../src/components/Header/_header.scss";
+@import "../src/components/Display/display";
+@import "../src/components/ListPage/listPage";
+
+body {
+    margin: 0;
+    max-width: 100%;
+    font-family: 'Anek Telugu';
+}
+
+.mainPage {
+    background-color: #ffffff;
+    height: 100vh;
+    overflow-x: hidden;
+    grid-template-areas: "d l l";
+    /* width */
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 80%;
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: rgba(65, 65, 65, 0.3);
+      border-radius: 50px;
+      margin: 10px 10px 10px 0px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #FFCC26;
+      border-radius: 50px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #FFCC26;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 80%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(65, 65, 65, 0.3);
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFCC26;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFCC26;
+}
